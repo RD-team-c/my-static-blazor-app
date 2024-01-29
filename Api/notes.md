@@ -5,6 +5,7 @@
 
 Azure Static Web Apps supports custom routing rules defined in an optional <code>staticwebapp.config.json</code> file located in the app's source folder (wwwroot within the Client project.). You can define a navigation fallback route in the navigationFallback object. A common fallback route configuration looks like this example.
 
+### Fallback Route
 JSON
 {
   "navigationFallback": {
